@@ -1,0 +1,51 @@
+.Categories {
+    text-align: center;
+}
+
+h2 {
+    color: #A0A09F;
+    font-family: futura-lt-w01-light,sans-serif;
+    font-size: 300%;
+    font-weight: normal;
+    margin-bottom: 5px;
+}
+
+.container
+{
+
+}
+
+.transformersImg
+{
+    height: 480px;
+    width: 100%;
+}
+
+.text
+{
+    position: absolute;
+    z-index:100;
+    color: rgba(65, 186, 174, 1);
+    font-size:24px;
+
+}
+
+.bballImg {
+    float: left;
+    height: 700px;
+    width: 490px;
+}
+
+.bieberImg {
+    float: right;
+    width: 62%;
+}
+
+.ellenImg {
+    width: 30%;
+    margin: 4px 4px 4px 0px;
+}
+
+.oscarsImg {
+    width: 32%;
+}

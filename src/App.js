@@ -9,20 +9,23 @@ class App extends Component {
   render() {
     return (
       <div className="App">
+
         <div className="fullscreen-bg">
           <video loop muted autoPlay poster={bgImage}
             className="fullscreen-bg-video">
             <source src={bgVideo} type="video/mp4" />
           </video>
         </div>
+
         <div className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
-          <h2>Welcome to React</h2>
+          <h2>Virtually Teleport Anywhere</h2>
         </div>
-        <Button label="Hello World!" raised primary />
+
         <p className="App-intro">
-          To get started, edit <code>src/App.js</code> and save to reload.
+            Your dreams come true. Now you can watch movies, go to concerts or games virtually<br/>being at home. Never miss a thing. Be part of the craziness and fun.
         </p>
+          <Button label="Enter the Fun" raised primary />
       </div>
     );
   }

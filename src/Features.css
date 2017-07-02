@@ -1,0 +1,26 @@
+.Features {
+    text-align: center;
+}
+
+.Header h2 {
+    color: #A0A09F;
+    font-family: futura-lt-w01-light,sans-serif;
+    font-size: 300%;
+    font-weight: normal;
+    margin-bottom: 5px;
+}
+
+.featureImg {
+    height: 436px;
+    width: 236px;
+}
+
+.headsetImg {
+    height: 276px;
+    width: 509px;
+}
+
+.featureText h2 {
+    color: rgba(65, 186, 174, 1) !important;
+    font-size: 200% !important;
+}

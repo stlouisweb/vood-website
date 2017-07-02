@@ -1,0 +1,11 @@
+.Categories {
+    text-align: center;
+}
+
+.Header h2 {
+    color: #A0A09F;
+    font-family: futura-lt-w01-light,sans-serif;
+    font-size: 300%;
+    font-weight: normal;
+    margin-bottom: 5px;
+}
