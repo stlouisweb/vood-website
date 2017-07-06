@@ -49,6 +49,11 @@
   font-size: 65px;
 }
 
+.App-header p {
+  color: #00FFFF;
+  font-size: 30px;
+}
+
 .App-intro {
   color: white;
   font-size: 170%;

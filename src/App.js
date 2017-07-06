@@ -25,6 +25,7 @@ class App extends Component {
 
         <div className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
+            <p>VOOD</p>
           <h2>Virtually Teleport Anywhere</h2>
         </div>
 
