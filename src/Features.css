@@ -1,0 +1,75 @@
+.Features {
+    text-align: center;
+    height: 2450px;
+    width: 100vw;
+}
+
+/*header style is repeated from categories component and can be deleted*/
+
+.Header h2 {
+    color: #A0A09F;
+    font-family: futura-lt-w01-light,sans-serif;
+    font-size: 300%;
+    font-weight: normal;
+    margin-bottom: 70px !important;
+
+    position: relative;
+    text-align: center;
+}
+
+.Header h2 span
+{
+    background: #fff;
+    padding: 0 15px;
+    position: relative;
+    z-index: 1;
+}
+
+.Header h2:before {
+    background: #ddd;
+    content: "";
+    display: block;
+    height: 2px;
+    position: absolute;
+    top: 50%;
+    width: 100%;
+}
+.Header h2:before {
+    left: 0;
+}
+
+.featureImg {
+    height: 436px;
+    width: 236px;
+}
+
+.headsetImg {
+    height: 276px;
+    width: 509px;
+}
+
+.featureSection h2, .lastSection h2, .secondSection h2 {
+    color: rgba(65, 186, 174, 1) !important;
+    font-size: 200% !important;
+}
+
+.featureSection {
+    display: flex;
+    justify-content: center; /* align horizontal */
+    align-items: center;
+    margin: 100px 250px;
+}
+
+.secondSection {
+    display: flex;
+    justify-content: center; /* align horizontal */
+    align-items: center;
+    margin: 150px 250px 50px 250px;
+}
+
+.lastSection {
+    display: flex;
+    justify-content: center; /* align horizontal */
+    align-items: center;
+    margin: 50px 200px 150px 250px;
+}
