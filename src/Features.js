@@ -1,4 +1,6 @@
 import React, {Component} from 'react';
+// import {Image} from 'react-bootstrap';
+import ImageResponsive, {Source} from 'react-image-responsive';
 import './Features.css';
 import detailsimg from './details.png';
 import chooseCategoryimg from './chooseCategory.png';
@@ -11,27 +13,57 @@ class Features extends Component {
         return (
             <div className="Features">
                 <div className="Header">
-                    <h2>Features</h2>
+                    <h2><span>Features</span></h2>
                 </div>
-                <div className="download">
-                    <h2 className="featureText">Download the App</h2>
-                    <img src={downloadAppimg} className="featureImg" alt="download" />
+                <div class="container-fluid">
+                    <div className="featureSection row">
+                        <div className="col-xs-6 right">
+                            <h2 className="featureText">Download the App</h2>
+                        </div>
+                        <div className="col-xs-6 left">
+                            <img src={downloadAppimg} className="featureImg" alt="download" />
+                        </div>
+                    </div>
                 </div>
-                <div className="choose">
-                    <img src={chooseCategoryimg} className="featureImg" alt="choose" />
-                    <h2 className="featureText">Choose Category</h2>
+                <div class="container-fluid">
+                    <div className="featureSection row">
+                        <div className="col-xs-6 center">
+                            <img src={chooseCategoryimg} className="featureImg" alt="choose" />
+                        </div>
+                        <div className="col-xs-6 center">
+                            <h2 className="featureText">Choose a Category</h2>
+                        </div>
+                    </div>
                 </div>
-                <div className="search">
-                    <h2 className="featureText">Search your favorite<br/>movie, live sports, TV talk<br/>shows and other event<br/>anywhere in the world</h2>
-                    <img src={searchimg} className="featureImg" alt="search" />
+                <div class="container-fluid">
+                    <div className="featureSection row">
+                        <div className="col-xs-6 center">
+                            <h2 className="featureText">Search your favorite<br/>movies, live sports, TV talk<br/>shows and other events<br/>anywhere in the world</h2>
+                        </div>
+                        <div className="col-xs-6 center">
+                            <img src={searchimg} className="featureImg" alt="search" />
+                        </div>
+                    </div>
                 </div>
-                <div className="details">
-                    <img src={detailsimg} className="featureImg" alt="details" />
-                    <h2 className="featureText">View details and buy<br/>tickets if required </h2>
+                <div class="container-fluid">
+                    <div className="secondSection row">
+                        <div className="col-xs-6 center">
+                            <img src={detailsimg} className="featureImg" alt="details" />
+                        </div>
+                        <div className="col-xs-6 center">
+                            <img src={headsetimg} className="headsetImg" alt="headset" />
+                        </div>
+                    </div>
                 </div>
-                <div className="headset">
-                    <img src={headsetimg} className="headsetImg" alt="headset" />
-                    <h2 className="featureText">Watch and enjoy with your<br/>VR headset</h2>
+                <div class="container-fluid">
+                    <div className="lastSection row">
+                        <div className="col-xs-6 center">
+                            <h2 className="lastText">View details and buy<br/>tickets if required </h2>
+                        </div>
+                        <div className="col-xs-6 center">
+                            <h2 className="lastText">Watch and enjoy with your<br/>VR headset</h2>
+                        </div>
+                    </div>
                 </div>
             </div>
         );

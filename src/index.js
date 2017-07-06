@@ -1,4 +1,6 @@
 import React from 'react';
+import ImageResponsive, {Source} from 'react-image-responsive';
+// import {Image} from 'react-bootstrap';
 import ReactDOM from 'react-dom';
 import ThemeProvider from 'react-toolbox/lib/ThemeProvider';
 import theme from './toolbox/theme';
@@ -12,15 +14,12 @@ import registerServiceWorker from './registerServiceWorker';
 
 ReactDOM.render(
   <ThemeProvider theme={theme}>
-      <Features />
+      <App />
   </ThemeProvider>,
 
 
   document.getElementById('root'));
 registerServiceWorker();
 
-// <App />
-// <Categories />
-// <Contact />
 
 

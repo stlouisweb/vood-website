@@ -1,51 +1,238 @@
 .Categories {
     text-align: center;
+    height: 1400px;
+    width: 100vw;
 }
 
-h2 {
+.Header h2 {
     color: #A0A09F;
     font-family: futura-lt-w01-light,sans-serif;
     font-size: 300%;
     font-weight: normal;
-    margin-bottom: 5px;
+    margin-bottom: 70px !important;
+
+    position: relative;
+    text-align: center;
 }
 
-.container
+.Header h2 span
 {
-
+    background: #fff;
+    padding: 0 15px;
+    position: relative;
+    z-index: 1;
 }
 
-.transformersImg
-{
-    height: 480px;
+.Header h2:before {
+    background: #ddd;
+    content: "";
+    display: block;
+    height: 2px;
+    position: absolute;
+    top: 50%;
     width: 100%;
 }
+.Header h2:before {
+    left: 0;
+}
 
-.text
+
+.tranSize
 {
+    width: 1364px;
+    height: 468px;
+    padding: 0px;
+}
+
+.tranSize img,.tranSize Img {
+    width: 100%;
+    height: 468px;
+}
+
+.imgWidth {
+    width: 1364px;
+    height: 724px;
+}
+
+.imgWidth img, .tranSize Img {
+    max-width: 100%;
+    max-height: 100%;
+    padding: 2px !important;
+}
+
+.colPadding {
+    padding: 0px;
+}
+
+.showWidth {
+    width: 906px;
+    height: 342px;
+    margin: 0px;
+
+}
+.six {
+    height: 342px;
+}
+
+.showWidth img {
+    width: 100%;
+    height: 100%;
+}
+
+.twelve {
+    position: relative;
+    height:auto;
+    margin: auto;
+    text-align:center;
+}
+
+.twelve h2 {
     position: absolute;
-    z-index:100;
-    color: rgba(65, 186, 174, 1);
-    font-size:24px;
+    margin: auto;
+    top: 0;
+    left:0;
+    right:0;
+    bottom:0;
+    height: 200px;
+    width: 218px;
+    color:  #41BAAE;
+    font: normal normal normal 55px/1.4em futura-lt-w01-light,sans-serif;
+}
+
+.bballctr h2 {
+    position: absolute;
+    margin: auto;
+    top: 0;
+    left:15px;
+    right:200px;
+    bottom:470px;
+    height: 200px;
+    width: 400px;
+    color:  #41BAAE;
+    font: normal normal normal 55px/1.4em futura-lt-w01-light,sans-serif;
+}
+
+.bballctr p {
+    position: absolute;
+    margin: auto;
+    top: 0;
+    left:25px;
+    right:200px;
+    bottom:310px;
+    height: 200px;
+    width: 400px;
+    color:  #41BAAE;
+    font: normal normal normal 20px/1.4em futura-lt-w01-light,sans-serif;
+    text-align: left;
+}
+
+.bieberctr h2 {
+    position: absolute;
+    margin: auto;
+    top: 0;
+    left:0px;
+    right: 600px;
+    bottom:170px;
+    height: 200px;
+    width: 400px;
+    color:  #41BAAE;
+    font: normal normal normal 55px/1.4em futura-lt-w01-light,sans-serif;
+}
+
+.bieberctr p {
+    position: absolute;
+    margin: auto;
+    top: 0;
+    left:0px;
+    right:440px;
+    bottom:25px;
+    height: 200px;
+    width: 400px;
+    color:  #41BAAE;
+    font: normal normal normal 20px/1.4em futura-lt-w01-light,sans-serif;
+    text-align: left;
 
 }
 
-.bballImg {
-    float: left;
-    height: 700px;
-    width: 490px;
+.ellenctr h2 {
+    position: absolute;
+    margin: auto;
+    top: 0;
+    left:0;
+    right: 200px;
+    bottom:140px;
+    height: 200px;
+    width: 300px;
+    color:  #41BAAE;
+    font: normal normal normal 55px/1.4em futura-lt-w01-light,sans-serif;
 }
 
-.bieberImg {
-    float: right;
-    width: 62%;
+.ellenctr p {
+    position: absolute;
+    margin: auto;
+    top: 50px;
+    left:0px;
+    right:20px;
+    bottom:0px;
+    height: 250px;
+    width: 400px;
+    padding: 0px;
+    color:  #41BAAE;
+    font: normal normal normal 20px/1.4em futura-lt-w01-light,sans-serif;
+    text-align: left;
+
 }
 
-.ellenImg {
-    width: 30%;
-    margin: 4px 4px 4px 0px;
+.oscarctr h2 {
+    position: absolute;
+    margin: auto;
+    top: 0;
+    left:0;
+    right: 250px;
+    bottom: 140px;
+    height: 200px;
+    width: 200px;
+    color:  #41BAAE;
+    font: normal normal normal 55px/1.4em futura-lt-w01-light,sans-serif;
 }
 
-.oscarsImg {
-    width: 32%;
+.oscarctr p {
+    position: absolute;
+    margin: auto;
+    top: 43px;
+    left: 0px;
+    right: 15px;
+    bottom:0px;
+    height: 250px;
+    width: 400px;
+    padding: 0px;
+    color:  #41BAAE;
+    font: normal normal normal 20px/1.4em futura-lt-w01-light,sans-serif;
+    text-align: left;
+}
+
+.vrheadsetImg {
+    position: absolute;
+    margin: auto;
+    top: 20px;
+    left:0;
+    right:0;
+    bottom:0;
+    width: 90px !important;
+    height: 90px !important;
+}
+
+.centerImages {
+    position: absolute;
+    margin: auto;
+    right: 0;
+    left: 0;
+    /*width: 1364px;*/
+    width: 100vw !important;
+}
+
+.bieberCenter {
+    position: relative;
+    height:auto;
+    margin: auto;
 }
