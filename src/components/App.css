@@ -4,7 +4,7 @@
 }
 
 .Intro {
-  height: 700px;
+  height: 720px;
 }
 
 .App-logo {
@@ -23,48 +23,57 @@
   height: 37px;
   border-radius: 7px;
   position: relative;
-  top:0;
+  top: 0;
   bottom: 0;
   left: 0;
   right: 0;
   margin: auto;
 }
 
-.App Button:hover {background-color: #00FFFF !important;}
+.App Button:hover {
+  background-color: #00ffff !important;
+}
 
 .App-header {
   /*background-color: #222;*/
-  height: 150px;
+
   padding: 90px 20px 30px 20px;
   color: white;
-  font-size: 260%;
-  font-family: futura-lt-w01-light,sans-serif;
+  font-size: 230%;
+  font-family: futura-lt-w01-light, sans-serif;
 }
 
 .App-header h2 {
   font-weight: normal;
   margin: 15px 0px 15px 0px;
   color: white;
-  font-size: 65px;
+  text-shadow: 2px 2px 4px #000;
+  font-size: 5vw;
 }
 
 .App-header p {
-  color: #00FFFF;
-  font-size: 30px;
+  color: rgba(65, 186, 174, 1);
+  text-shadow: 2px 2px 4px #000;
+  font-size: 4vw;
 }
 
 .App-intro {
   color: white;
-  font-size: 170%;
-  font-family: futura-lt-w01-light,sans-serif;
+  text-shadow: 2px 2px 4px #000;
+  font-size: 2vw;
+  font-family: futura-lt-w01-light, sans-serif;
   padding-bottom: 55px;
   padding-top: 10px;
-  margin-top: 150px;
+  margin-top: 10px;
 }
 
 @keyframes App-logo-spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
 }
 
 .App {
@@ -93,4 +102,58 @@
   height: auto;
   z-index: -100;
   transform: translateX(-50%) translateY(-50%);
+}
+@media screen and (max-width: 900px) {
+  .Intro {
+    max-width: 800px;
+    margin: 0px auto;
+    height: 720px;
+  }
+  .App-header h2 {
+    margin: 15px 0px 15px 0px;
+    font-size: 6vw;
+  }
+
+  .App-header p {
+    font-size: 4vw;
+  }
+
+  .App-intro {
+    font-size: 2.1vw;
+    padding-bottom: 55px;
+    padding-top: 10px;
+    margin-top: 10px;
+  }
+}
+@media screen and (max-width: 680px) {
+  .Intro {
+    max-width: 500px;
+    margin: 0px auto;
+    height: 657px;
+  }
+  .App-header h2 {
+    margin: 15px 0px 15px 0px;
+    font-size: 7vw;
+  }
+
+  .App-header p {
+    font-size: 5vw;
+  }
+
+  .App-intro {
+    font-size: 3.6vw;
+    padding-bottom: 55px;
+    padding-top: 10px;
+    margin-top: 10px;
+  }
+}
+@media screen and (max-width: 540px) {
+  .App-intro {
+    font-size: 4vw;
+  }
+}
+@media screen and (max-width: 410px) {
+  .App-header h2 {
+    margin: 90px 0px 15px 0px;
+  }
 }
