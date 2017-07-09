@@ -1,7 +1,6 @@
 .Categories {
   text-align: center;
   width: 100vw;
-  height: 900px;
 }
 .Header h2 {
   color: #a0a09f;
@@ -118,27 +117,30 @@
   color: #41baae;
   font: normal normal normal 55px/1.4em futura-lt-w01-light, sans-serif;
 }
-.bballctr {
-}
 .bball h2,
 .trans h2,
-.bieber h2 {
-  text-align: center;
+.bieber h2,
+.ellen h2,
+.oscar h2 {
+  padding-left: 5px;
+  text-align: left;
   color: #41baae;
   text-shadow: 2px 2px 6px #000;
   font: normal normal normal 55px/1.4em futura-lt-w01-light, sans-serif;
+  margin: 0;
 }
-.bbal h2 {
-  text-align: left;
-}
-
-.bball p,
-.bieber p {
-  color: #41baae;
-  font: normal normal normal 20px/1.4em futura-lt-w01-light, sans-serif;
+.trans h2,
+.trans p {
   text-align: center;
 }
-.bball p {
+.bball p,
+.bieber p,
+.ellen p,
+.oscar p {
+  padding-left: 5px;
+  color: #41baae;
+  font: normal normal normal 20px/1.4em futura-lt-w01-light, sans-serif;
+  text-shadow: 1px 1px 2px #000;
   text-align: left;
 }
 
@@ -226,12 +228,6 @@
 }
 
 .vrheadsetImg {
-  position: relative;
-  margin: auto;
-  top: 20px;
-  left: 0;
-  right: 0;
-  bottom: 0;
   width: 90px !important;
   height: 90px !important;
 }
@@ -247,4 +243,36 @@
   position: relative;
   height: auto;
   margin: auto;
+}
+
+@media screen and (max-width: 900px) {
+  .centerImages {
+    grid-template: repeat(6, 1fr) / 100%;
+    height: 1040px;
+  }
+  .trans {
+    grid-area: 1 / 1 / 2 / 2;
+  }
+  .bball {
+    grid-area: 2 / 1 / 3 / 2;
+  }
+  .bieber {
+    grid-area: 3 / 1 / 4 / 2;
+  }
+  .ellen {
+    grid-area: 4 / 1 / 5 / 2;
+  }
+  .oscar {
+    grid-area: 5 / 1 / 6 / 2;
+  }
+}
+@media screen and (max-width: 680px) {
+  .centerImages {
+    height: 1080px;
+  }
+}
+@media screen and (max-width: 471px) {
+  .centerImages {
+    height: 1115px;
+  }
 }
