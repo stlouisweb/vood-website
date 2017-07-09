@@ -125,6 +125,7 @@
     margin-top: 10px;
   }
 }
+
 @media screen and (max-width: 680px) {
   .Intro {
     max-width: 500px;

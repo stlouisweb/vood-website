@@ -1,12 +1,11 @@
 .Categories {
   text-align: center;
-  height: 1400px;
   width: 100vw;
+  height: 900px;
 }
-
 .Header h2 {
-  color: #A0A09F;
-  font-family: futura-lt-w01-light,sans-serif;
+  color: #a0a09f;
+  font-family: futura-lt-w01-light, sans-serif;
   font-size: 300%;
   font-weight: normal;
   margin-bottom: 70px !important;
@@ -34,17 +33,40 @@
 .Header h2:before {
   left: 0;
 }
-
-
-.tranSize {
-  width: 1364px;
-  height: 468px;
-  padding: 0px;
+.trans {
+  background-image: url('../../assets/transformers.jpg');
+  background-size: cover;
+  background-position: center center;
+  grid-area: 1 / 1 / 2 / 4;
 }
-
-.tranSize img,.tranSize Img {
-  width: 100%;
+.bball {
+  background-image: url('../../assets/basketball.jpg');
+  background-size: cover;
+  background-position: center center;
+  grid-area: 2 / 1 / 4 / 2;
+}
+.bieber {
+  background-image: url('../../assets/bieber.jpg');
+  background-size: cover;
+  background-position: center center;
+  grid-area: 2 / 2 / 3 / 4;
+}
+.ellen {
+  background-image: url('../../assets/ellen.jpg');
+  background-size: cover;
+  background-position: center center;
+  grid-area: 3 / 2 / 4 / 3;
+}
+.oscar {
+  background-image: url('../../assets/oscars.jpg');
+  background-size: cover;
+  background-position: center center;
+  grid-area: 3 / 3 / 4 / 4;
+}
+.tranSize {
+  /*width: 1364px;
   height: 468px;
+  padding: 0px;*/
 }
 
 .imgWidth {
@@ -52,7 +74,8 @@
   height: 724px;
 }
 
-.imgWidth img, .tranSize Img {
+.imgWidth img,
+.tranSize Img {
   max-width: 100%;
   max-height: 100%;
   padding: 2px !important;
@@ -66,7 +89,6 @@
   width: 906px;
   height: 342px;
   margin: 0px;
-
 }
 .six {
   height: 342px;
@@ -79,48 +101,44 @@
 
 .twelve {
   position: relative;
-  height:auto;
+  height: auto;
   margin: auto;
-  text-align:center;
+  text-align: center;
 }
 
 .twelve h2 {
   position: absolute;
   margin: auto;
   top: 0;
-  left:0;
-  right:0;
-  bottom:0;
+  left: 0;
+  right: 0;
+  bottom: 0;
   height: 200px;
   width: 218px;
-  color:  #41BAAE;
-  font: normal normal normal 55px/1.4em futura-lt-w01-light,sans-serif;
+  color: #41baae;
+  font: normal normal normal 55px/1.4em futura-lt-w01-light, sans-serif;
+}
+.bballctr {
+}
+.bball h2,
+.trans h2,
+.bieber h2 {
+  text-align: center;
+  color: #41baae;
+  text-shadow: 2px 2px 6px #000;
+  font: normal normal normal 55px/1.4em futura-lt-w01-light, sans-serif;
+}
+.bbal h2 {
+  text-align: left;
 }
 
-.bballctr h2 {
-  position: absolute;
-  margin: auto;
-  top: 0;
-  left:15px;
-  right:200px;
-  bottom:470px;
-  height: 200px;
-  width: 400px;
-  color:  #41BAAE;
-  font: normal normal normal 55px/1.4em futura-lt-w01-light,sans-serif;
+.bball p,
+.bieber p {
+  color: #41baae;
+  font: normal normal normal 20px/1.4em futura-lt-w01-light, sans-serif;
+  text-align: center;
 }
-
-.bballctr p {
-  position: absolute;
-  margin: auto;
-  top: 0;
-  left:25px;
-  right:200px;
-  bottom:310px;
-  height: 200px;
-  width: 400px;
-  color:  #41BAAE;
-  font: normal normal normal 20px/1.4em futura-lt-w01-light,sans-serif;
+.bball p {
   text-align: left;
 }
 
@@ -128,70 +146,68 @@
   position: absolute;
   margin: auto;
   top: 0;
-  left:0px;
+  left: 0px;
   right: 600px;
-  bottom:170px;
+  bottom: 170px;
   height: 200px;
   width: 400px;
-  color:  #41BAAE;
-  font: normal normal normal 55px/1.4em futura-lt-w01-light,sans-serif;
+  color: #41baae;
+  font: normal normal normal 55px/1.4em futura-lt-w01-light, sans-serif;
 }
 
 .bieberctr p {
   position: absolute;
   margin: auto;
   top: 0;
-  left:0px;
-  right:440px;
-  bottom:25px;
+  left: 0px;
+  right: 440px;
+  bottom: 25px;
   height: 200px;
   width: 400px;
-  color:  #41BAAE;
-  font: normal normal normal 20px/1.4em futura-lt-w01-light,sans-serif;
+  color: #41baae;
+  font: normal normal normal 20px/1.4em futura-lt-w01-light, sans-serif;
   text-align: left;
-
 }
 
 .ellenctr h2 {
   position: absolute;
   margin: auto;
   top: 0;
-  left:0;
+  left: 0;
   right: 200px;
-  bottom:140px;
+  bottom: 140px;
   height: 200px;
   width: 300px;
-  color:  #41BAAE;
-  font: normal normal normal 55px/1.4em futura-lt-w01-light,sans-serif;
+  color: #41baae;
+  font: normal normal normal 55px/1.4em futura-lt-w01-light, sans-serif;
 }
 
 .ellenctr p {
   position: absolute;
   margin: auto;
   top: 50px;
-  left:0px;
-  right:20px;
-  bottom:0px;
+  left: 0px;
+  right: 20px;
+  bottom: 0px;
   height: 250px;
   width: 400px;
   padding: 0px;
-  color:  #41BAAE;
-  font: normal normal normal 20px/1.4em futura-lt-w01-light,sans-serif;
+  color: #41baae;
+  font: normal normal normal 20px/1.4em futura-lt-w01-light, sans-serif;
   text-align: left;
-
 }
 
 .oscarctr h2 {
   position: absolute;
   margin: auto;
   top: 0;
-  left:0;
+  left: 0;
   right: 250px;
   bottom: 140px;
   height: 200px;
   width: 200px;
-  color:  #41BAAE;
-  font: normal normal normal 55px/1.4em futura-lt-w01-light,sans-serif;
+  color: #41baae;
+  font: normal normal normal 55px/1.4em futura-lt-w01-light, sans-serif;
 }
 
 .oscarctr p {
@@ -200,37 +216,35 @@
   top: 43px;
   left: 0px;
   right: 15px;
-  bottom:0px;
+  bottom: 0px;
   height: 250px;
   width: 400px;
   padding: 0px;
-  color:  #41BAAE;
-  font: normal normal normal 20px/1.4em futura-lt-w01-light,sans-serif;
+  color: #41baae;
+  font: normal normal normal 20px/1.4em futura-lt-w01-light, sans-serif;
   text-align: left;
 }
 
 .vrheadsetImg {
-  position: absolute;
+  position: relative;
   margin: auto;
   top: 20px;
-  left:0;
-  right:0;
-  bottom:0;
+  left: 0;
+  right: 0;
+  bottom: 0;
   width: 90px !important;
   height: 90px !important;
 }
 
 .centerImages {
-  position: absolute;
-  margin: auto;
-  right: 0;
-  left: 0;
-  /*width: 1364px;*/
-  width: 100vw !important;
+  display: grid;
+  height: 80vw;
+  grid-template: repeat(3, 1fr) / repeat(3, 1fr);
+  grid-gap: 5px;
 }
 
 .bieberCenter {
   position: relative;
-  height:auto;
+  height: auto;
   margin: auto;
 }
