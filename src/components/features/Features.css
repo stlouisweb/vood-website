@@ -1,75 +1,153 @@
 .Features {
-    text-align: center;
-    height: 2450px;
-    width: 100vw;
+  text-align: center;
+  width: 100vw;
+  height: 2200px;
 }
-
+.features-grid {
+  display: grid;
+  grid-template: repeat(5, 1fr) / 50% 50%;
+  grid-gap: 5px;
+  max-width: 800px;
+  margin: 0px auto;
+  align-items: center;
+}
+.fet1 {
+  grid-area: 1 / 1 / 1 / 1;
+}
+.fet2 {
+  grid-area: 1 / 2 / 1 / 2;
+}
+.fet3 {
+  grid-area: 2 / 1 / 3 / 1;
+}
+.fet4 {
+  grid-area: 2 / 2 / 3 / 2;
+}
+.fet5 {
+  grid-area: 3 / 1 / 4 / 1;
+}
+.fet6 {
+  grid-area: 3 / 2 / 4 / 2;
+}
+.fet7 {
+  grid-area: 4 / 1 / 5 / 1;
+}
+.fet8 {
+  grid-area: 4 / 2 / 5 / 2;
+}
+.fet9 {
+  grid-area: 5 / 1 / 6 / 1;
+}
+.fet10 {
+  grid-area: 5 / 2 / 6 / 2;
+}
 /*header style is repeated from categories component and can be deleted*/
 
 .Header h2 {
-    color: #A0A09F;
-    font-family: futura-lt-w01-light,sans-serif;
-    font-size: 300%;
-    font-weight: normal;
-    margin-bottom: 70px !important;
+  color: #a0a09f;
+  font-family: futura-lt-w01-light, sans-serif;
+  font-size: 300%;
+  font-weight: normal;
+  margin-bottom: 70px !important;
 
-    position: relative;
-    text-align: center;
+  position: relative;
+  text-align: center;
 }
 
-.Header h2 span
-{
-    background: #fff;
-    padding: 0 15px;
-    position: relative;
-    z-index: 1;
+.Header h2 span {
+  background: #fff;
+  padding: 0 15px;
+  position: relative;
+  z-index: 1;
 }
 
 .Header h2:before {
-    background: #ddd;
-    content: "";
-    display: block;
-    height: 2px;
-    position: absolute;
-    top: 50%;
-    width: 100%;
+  background: #ddd;
+  content: "";
+  display: block;
+  height: 2px;
+  position: absolute;
+  top: 50%;
+  width: 100%;
 }
 .Header h2:before {
-    left: 0;
+  left: 0;
 }
 
 .featureImg {
-    height: 436px;
-    width: 236px;
+  height: 436px;
+  width: 236px;
 }
 
 .headsetImg {
-    height: 276px;
-    width: 509px;
+  height: auto;
+  width: 90%;
 }
 
-.featureSection h2, .lastSection h2, .secondSection h2 {
-    color: rgba(65, 186, 174, 1) !important;
-    font-size: 200% !important;
+.features-grid h2,
+.lastSection h2,
+.secondSection h2 {
+  color: rgba(65, 186, 174, 1) !important;
+  font-size: 200% !important;
 }
 
 .featureSection {
-    display: flex;
-    justify-content: center; /* align horizontal */
-    align-items: center;
-    margin: 100px 250px;
+  display: flex;
+  justify-content: center; /* align horizontal */
+  align-items: center;
+  margin: 100px 250px;
 }
 
 .secondSection {
-    display: flex;
-    justify-content: center; /* align horizontal */
-    align-items: center;
-    margin: 150px 250px 50px 250px;
+  display: flex;
+  justify-content: center; /* align horizontal */
+  align-items: center;
+  margin: 150px 250px 50px 250px;
 }
 
 .lastSection {
+  display: flex;
+  justify-content: center; /* align horizontal */
+  align-items: center;
+  margin: 50px 200px 150px 250px;
+}
+
+@media screen and (max-width: 700px) {
+  .Features {
+    height: 2600px;
+  }
+  .features-grid {
     display: flex;
-    justify-content: center; /* align horizontal */
-    align-items: center;
-    margin: 50px 200px 150px 250px;
+    flex-direction: column;
+  }
+  .fet1 {
+    order: 1;
+  }
+  .fet2 {
+    order: 2;
+  }
+  .fet3 {
+    order: 4;
+  }
+  .fet4 {
+    order: 3;
+  }
+  .fet5 {
+    order: 5;
+  }
+  .fet6 {
+    order: 6;
+  }
+  .fet7 {
+    order: 8;
+  }
+  .fet8 {
+    order: 10;
+  }
+  .fet9 {
+    order: 7;
+  }
+  .fet10 {
+    order: 9;
+  }
 }
