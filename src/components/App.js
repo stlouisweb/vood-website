@@ -1,5 +1,6 @@
 // @flow
 
+import './App.css';
 import bgImage from '../assets/vood.png';
 import bgVideo from '../assets/vodebg.mp4';
 import Button from 'react-toolbox/lib/button/Button';
@@ -8,7 +9,6 @@ import Contact from './contact/Contact';
 import Features from './features/Features';
 import logo from '../assets/logo.png';
 import React, {Component} from 'react';
-import './App.css';
 
 class App extends Component {
   render() {
