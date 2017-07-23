@@ -35,12 +35,10 @@ class App extends Component {
 
           <p className="App-intro">
             Let your fantasies become reality. Now you can watch movies, attend
-            live concerts or games virtually
-            <br />
-            while in the comfort of your home. Never miss a moment of all the
+            live concerts, and games virtually while in the comfort of your home. Never miss a moment of all the
             craziness and fun.
           </p>
-          <Button label="Enter the Fun" raised primary />
+          {/*<Button label="Enter the Fun" raised primary />*/}
         </div>
         <Categories />
         <Features />

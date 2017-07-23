@@ -25,22 +25,22 @@ class Contact extends Component {
               <b>Phone:</b> (314) 757 4731
             </p>
           </div>
-          <div className="customerContact">
-            <form>
-              <input type="text" id="name" name="name" placeholder="Name" />
-              <input type="text" id="email" name="email" placeholder="Email" />
-              <input
-                type="text"
-                id="subject"
-                name="subject"
-                placeholder="Subject"
-              />
-            </form>
-          </div>
-          <div className="messageBox">
-            <textarea placeholder="Message" />
-            <Button label="Send" className="contact-submit" raised />
-          </div>
+          {/*<div className="customerContact">*/}
+            {/*<form>*/}
+              {/*<input type="text" id="name" name="name" placeholder="Name" />*/}
+              {/*<input type="text" id="email" name="email" placeholder="Email" />*/}
+              {/*<input*/}
+                {/*type="text"*/}
+                {/*id="subject"*/}
+                {/*name="subject"*/}
+                {/*placeholder="Subject"*/}
+              {/*/>*/}
+            {/*</form>*/}
+          {/*</div>*/}
+          {/*<div className="messageBox">*/}
+            {/*<textarea placeholder="Message" />*/}
+            {/*<Button label="Send" className="contact-submit" raised />*/}
+          {/*</div>*/}
         </div>
       </div>
     );

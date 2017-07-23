@@ -41,9 +41,15 @@
 }
 
 .voodContact {
-  padding-left: 60px !important;
-  text-align: justify;
+
   align-self: center;
+
+  /*text-align: justify; -all of the below are temporary changes until buttons work*/
+  /*padding-left: 60px !important;*/
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
 }
 
 .voodContact p {
