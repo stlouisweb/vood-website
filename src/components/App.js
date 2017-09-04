@@ -5,6 +5,7 @@ import bgImage from '../assets/vood.png';
 import bgVideo from '../assets/vodebg.mp4';
 import Button from 'react-toolbox/lib/button/Button';
 import Categories from './categories/Categories';
+import Demo from './demo/Demo';
 import Contact from './contact/Contact';
 import Features from './features/Features';
 import logo from '../assets/logo.png';
@@ -42,6 +43,7 @@ class App extends Component {
         </div>
         <Categories />
         <Features />
+        <Demo />
         <Contact />
       </div>
     );

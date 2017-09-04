@@ -7,7 +7,7 @@
 
 @media screen and (max-width: 471px) {
   .Features {
-    margin-top: 400px;
+    margin-top: 100px !important;
   }
 }
 
@@ -123,6 +123,7 @@
 @media screen and (max-width: 700px) {
   .Features {
     height: 2600px;
+    margin-top: 100px !important;
   }
   .features-grid {
     display: flex;

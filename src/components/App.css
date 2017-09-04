@@ -75,7 +75,7 @@
 
 .App-intro {
   color: white;
-  text-shadow: 2px 2px 4px #000;
+  /*text-shadow: 2px 2px 4px #000;*/
   font-size: 2vw;
   font-family: futura-lt-w01-light, sans-serif;
   padding-bottom: 55px;
@@ -139,6 +139,7 @@
     padding-bottom: 55px;
     padding-top: 10px;
     margin-top: 10px;
+    color: rgba(65, 186, 174, 1);
   }
 }
 
@@ -161,12 +162,14 @@
     font-size: 3.6vw;
     padding-bottom: 55px;
     padding-top: 10px;
-    margin-top: 10px;
+    margin-top: 50px;
   }
 }
 @media screen and (max-width: 540px) {
   .App-intro {
     font-size: 4vw;
+    font-weight: 900 !important;
+    margin-top: 100px;
   }
 }
 @media screen and (max-width: 410px) {
