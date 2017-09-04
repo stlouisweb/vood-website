@@ -43,7 +43,7 @@ class Demo extends Component {
                     </h2>
                 </div>
                 <div>
-                    <h2 className="demoText">Click Below for a Live Demonstration of Vood</h2>
+                    <h2 className="demoText">Click Below for a Live Vood Demo</h2>
                 </div>
             <div className="buttons">
                 <ButtonToolbar>
