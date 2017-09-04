@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import './Demo.css';
 import { ButtonToolbar, Button } from 'react-bootstrap';
+import Youtube from './Youtube';
 
 const display = {
     display: 'block'
@@ -30,9 +31,11 @@ class Demo extends Component {
             <div className="modal" style={this.state.toggle ? display : hide}>
                 <div className="modal-footer">
                     <ButtonToolbar>
-                        <Button className="btn btn-primary btn-lg txt" onClick={this.toggle}><p>End Demo</p></Button>
+                        <Button className="btn btn-primary btn-xs end txt" onClick={this.toggle}><p>End Demo</p></Button>
                     </ButtonToolbar>
                 </div>
+                <Youtube/>
+                <Youtube/>
             </div>
         );
         return (
@@ -42,8 +45,9 @@ class Demo extends Component {
                         <span>Try It</span>
                     </h2>
                 </div>
-                <div>
-                    <h2 className="demoText">Click Below for a Live Vood Demo</h2>
+                <div className="demoText">
+                    <h2>Click Below for a Live Vood Demo</h2>
+                    <h4>Please View on a Mobile Device</h4>
                 </div>
             <div className="buttons">
                 <ButtonToolbar>

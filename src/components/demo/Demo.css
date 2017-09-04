@@ -36,3 +36,8 @@
     margin: 50px;
     text-align: center;
 }
+
+.modal .btn-toolbar>.btn  {
+    height: 20px;
+    width: 80px;
+}
