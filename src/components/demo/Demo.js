@@ -34,8 +34,9 @@ class Demo extends Component {
                         <Button className="btn btn-primary btn-xs end txt" onClick={this.toggle}><p>End Demo</p></Button>
                     </ButtonToolbar>
                 </div>
-                <Youtube/>
-                <Youtube/>
+                <div className="video">
+                    <Youtube/>
+                </div>
             </div>
         );
         return (

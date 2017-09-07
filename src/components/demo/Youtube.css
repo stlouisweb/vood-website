@@ -1,14 +1,18 @@
-.youtube, .end  {
+.youtube  {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    border-radius: 30px;
+    /*overflow: hidden;*/
+}
+
+
+.youtube .top, .youtube .bottom  {
+    display: inline-block;
     -ms-transform: rotate(90deg); /* IE 9 */
     -webkit-transform: rotate(90deg); /* Chrome, Safari, Opera */
     transform: rotate(90deg);
-}
-
-.end {
-    margin-top: 90px;
-}
-
-
-.youtube {
-    margin: 100px;
+    border-radius: 25px;
 }
