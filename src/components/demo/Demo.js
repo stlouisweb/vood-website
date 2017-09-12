@@ -48,7 +48,6 @@ class Demo extends Component {
                 </div>
                 <div className="demoText">
                     <h2>Click Below for a Live Vood Demo</h2>
-                    <h4>Please View on a Mobile Device</h4>
                 </div>
             <div className="buttons">
                 <ButtonToolbar>
